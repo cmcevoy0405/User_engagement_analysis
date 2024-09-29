@@ -1,4 +1,4 @@
-<h1 align="center" style="color:#FFFFFF; font-family: 'Arial', sans-serif;">Relax user engagement analysis</h1> <p align="left" style="color:#FFFFFF; font-family: 'Verdana', sans-serif;"><b>Key Findings: The analysis revealed that the top two creation sources were responsible for the majority of adopted users. Additionally, users who logged in more recently tended to have a higher adoption rate. Further investigation identified key businesses with the highest number of adopted members. Mailing lists had no impact on user adoption, while inviting users showed a marginally higher rate of adoption.</b> </p>
+<h1 align="center" style="color:#FFFFFF; font-family: 'Arial', sans-serif;">Relax user engagement analysis</h1> <p align="left" style="color:#FFFFFF; font-family: 'Verdana', sans-serif;"><b>Key Findings: The analysis revealed that the top two creation sources were responsible for the majority of adopted users. Additionally, users who logged in more recently tended had a far lower adoption rate. Further investigation identified key businesses with the highest number of adopted members. Mailing lists had no impact on user adoption, while inviting users showed a marginally higher rate of adoption.</b> </p>
 
 ### Table of contents
 - [Business Problem](#business-problem)
@@ -21,7 +21,7 @@ Firstly, I had the task of identifying users from the take-home user engagement 
 As there were several creation source IDs, I displayed the percentage of adopted users per creation source. SIGNUP_GOOGLE_AUTH and GUEST_INVITE were clear leaders in this section, both with adoption rates over 15%.
 
 #### Recently active
-I then created two common table expressions: one identifying users who were active more recently and another for users active less recently. As expected, users who were active more recently were more likely to be adopted, showing a 7% difference in adoption rates.
+I then created two common table expressions: one identifying users who were active more recently and another for users active less recently. Users who logged in more recently had less than 5% adoption rate compared to 26% for older members.
 
 #### Business Adoption
 I simply identified businesses with the highest adoption numbers using WHERE, GROUP BY, and ORDER BY statements. Organizations 7, 3, 2, 13, and 9 had the highest number of adopted users.
@@ -35,7 +35,7 @@ Analysis showed that when a user was invited, they were 2% more likely to become
 ### Insights
 To help increase adoption rates:
 - It would be beneficial to encourage users to sign up through Google and send out guest invites.
-- Send a notification if a user has not signed in for a certain timeframe to keep them active.
+- Strive for long term membership deals, for example offer rewards for loyalty.
 - Identify similarities among the leading organizations and target similar businesses.
 - Spend less money and time on mailing lists.
 - Encourage users to invite friends, possibly by running promotions and offering rewards when a member successfully invites a guest.
