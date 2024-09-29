@@ -1,2 +1,1 @@
-# User_engagement_analysis
-The Relax Take Home Assignment Data Analysis identifies "adopted users". It uses SQL to explore user engagement patterns, sign-up methods, and invitation impacts, providing insights into factors driving user adoption and retention.
+<h1 align="center" style="color:#FFFFFF; font-family: 'Arial', sans-serif;">Relax user engagement analysis</h1> <p align="left" style="color:#FFFFFF; font-family: 'Verdana', sans-serif;">
