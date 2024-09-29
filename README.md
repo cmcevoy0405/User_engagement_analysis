@@ -5,6 +5,7 @@
 - [Introduction](#introduction)
 - [Analysis](#analysis)
 - [Insights](#insights)
+- [Dashboard](#dashboard)
 
 ### Buisness Problem
 The company needs to understand which behaviors or sign-up methods lead to consistent product usage (adoption) and which user segments are at risk of disengaging. Solving this helps improve customer retention, optimize marketing efforts, and enhance overall product growth.
@@ -39,6 +40,14 @@ To help increase adoption rates:
 - Identify similarities among the leading organizations and target similar businesses.
 - Spend less money and time on mailing lists.
 - Encourage users to invite friends, possibly by running promotions and offering rewards when a member successfully invites a guest.
+
+### Dashboard
+The final part of this project involved creating a dashbard in Power BI to display my findings. I kept it pretty simple but utilised the DAX query a large amount. My dashboard displays a number of bar charts and pie charts showing:
+
+- The percentage adoption rate of different creation sources.
+- The adoption rates of inviting a user vs not.
+- The adoption rates of new vs old users.
+- The top 5 organisations with the highest number of adopted users.
 
 
 
