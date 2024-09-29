@@ -14,7 +14,7 @@ This analysis focuses on identifying patterns in user engagement and adoption fo
 
 ### Analysis
 
-##Identifiying adopted users
+## Identifiying adopted users
 Fistly I had the task of identifying users from the takehome user engagement table, I utilised SQL's DATEADD and DATEDIFF functions to sum the total number of visits for users in a week, if the a user had visited the site more than three times in a week they were identified as an adopted user. I then added a column to the takehome users table, identifiying an adopted user with a 1 and not adopted with a 0.
 
 ## Creation source analysis
