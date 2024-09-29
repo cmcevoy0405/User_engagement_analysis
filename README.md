@@ -14,22 +14,22 @@ This analysis focuses on identifying patterns in user engagement and adoption fo
 
 ### Analysis
 
-## Identifiying adopted users
+#### Identifiying adopted users
 Fistly I had the task of identifying users from the takehome user engagement table, I utilised SQL's DATEADD and DATEDIFF functions to sum the total number of visits for users in a week, if the a user had visited the site more than three times in a week they were identified as an adopted user. I then added a column to the takehome users table, identifiying an adopted user with a 1 and not adopted with a 0.
 
-## Creation source analysis
+#### Creation source analysis
 As there were several creation source id's I displayed the percentage of adopted users per creation source. SIGNUP_GOOGLE_AUTH and GUEST_INVITE were clear leaders in this section both with over 15% adoption rates.
 
-## Recently active
+#### Recently active
 I then created two common table expression, identifying users that where active more recently and one identifying when users were active less recently. As expected users that were active recently were more likely to be adopted, showing a difference of 7% in adoption rates.
 
-## Business Adoption
+#### Business Adoption
 I simply identifed buisness with the highest adoption numbers using where, group by and order by statements. Organisations 7, 3, 2, 13, 9 all had the highest number of adopted users.
 
-## Mailing impact
+#### Mailing impact
 I pulled data showing all different combinations of mailing lits for adopted and non-adopted users. The highest number of adopted members was shown when they were opted out for both mailing preferences. Shwoing that mailing preferences had a negative impact on adoption rates.
 
-## Inviting users
+#### Inviting users
 Analysis showed when a user was invited they were 2% more likely to become and adopted member.
 
 ### Insights
